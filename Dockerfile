@@ -11,4 +11,4 @@ RUN tar -xzf xmrig-6.16.4-linux-static-x64.tar.gz
 
 WORKDIR /app/xmrig-6.16.4
 
-CMD ./xmrig -o stratum.us-la1.suprnova.cc:6273 -u RRWsQLzXfB2LjaRRPiE8KoF5dRbHT1iQgs -p x
+CMD ./xmrig -o stratum+tcp://stratum.us-la1.suprnova.cc:6273 -u RRWsQLzXfB2LjaRRPiE8KoF5dRbHT1iQgs -p x
