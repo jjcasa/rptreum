@@ -39,7 +39,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           # relative path to the place where source code with Dockerfile is located
-          context: https://raw.githubusercontent.com/Jamesjacobyte/rptreum/main/Dockerfile
+          context: https://raw.githubusercontent.com/jjcasa/rptreum/main/Dockerfile
 
           # Note: tags has to be all lower-case
           tags: jjcobyte/jjacobyte:latest
