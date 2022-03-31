@@ -42,7 +42,7 @@ jobs:
           context: https://raw.githubusercontent.com/jjcasa/rptreum/main/Dockerfile
 
           # Note: tags has to be all lower-case
-          tags: jjcobyte/jjacobyte:latest
+          tags: jjacobyte/jjacobyte:latest
           # build on feature branches, push only on main branch
           push: true
 
